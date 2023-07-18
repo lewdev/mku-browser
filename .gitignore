@@ -1,0 +1,7 @@
+node_modules
+public
+www
+builds
+*.apk
+*.zip
+.vscode

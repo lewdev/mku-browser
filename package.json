@@ -1,0 +1,11 @@
+{
+  "name": "mku-browser",
+  "version": "1.0.0",
+  "description": "Browse the sacred songs of the service in 9 languages.",
+  "scripts": {
+    "preinstall": "npm i serve concurrently opener -g",
+    "start": "concurrently \"serve src -p 3039\" \"opener http://localhost:3039\""
+  },
+  "author": "Lewis Nakao <lewdev@gmail.com>",
+  "license": "UNLICENSED"
+}
